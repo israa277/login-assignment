@@ -1,0 +1,54 @@
+body{
+    background-image: url(../img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.login{
+    background-color: transparent;
+    border: solid 2px  rgb(255, 255, 255 , .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0 , .2);
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.form-control{
+    background-color: transparent !important;
+    border-color: rgb(255, 255, 255 , .2) !important;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0 rgba(13,110,253,.25) !important;
+
+}
+input{
+    color: white !important;
+    font-size: 20px !important;
+
+}
+input::placeholder{
+    color:  white !important;
+    font-size: 16px;
+}
+
+button:hover{
+    color: black !important;
+}
+
+p a:hover{
+    text-decoration:underline !important;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    font-weight: bold;
+}

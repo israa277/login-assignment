@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar{
+    background-color: transparent;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-item button{
+    color: rgba(255,255,255,.5);
+}
+.nav-item button:hover{
+    color: black;
+}
+ .navbar-toggler {
+    color: rgba(255,255,255,.5) !important;
+    border-color: rgba(255,255,255,.1);
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(0, 0, 0 , .2);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #FFC83D;
+}
+
+i.fa-heart{
+    color: red;
+}

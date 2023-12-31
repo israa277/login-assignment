@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="login w-75 m-auto p-5">
+            <h1>Smart Login System</h1>
+            <input id="name" type="text" placeholder="Enter your name" class="form-control my-4 rounded-pill">
+            <input id="email" type="text" placeholder="Enter your email" class="form-control my-4 rounded-pill">
+            <input id="password" type="password" placeholder="Enter your password" class="form-control my-4 rounded-pill">
+            <span class="text-danger m-3 d-none" id="message">All inputs is required</span>
+            <span class="text-white m-3 d-none" id="Success">Success</span>
+            <span class="text-warning m-3 d-none" id="emailLocal">email already exists</span>
+            <button id="signUp" class="btn btn-outline-light w-100 my-4 rounded-pill" >Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white text-decoration-none" href="./index.html">  Sign in</a></p>
+        </div> 
+    </div>
+   <script src="./js/bootstrap.bundle.min.js"></script>
+   <script src="./js/signin.js"></script> 
+</body>
+</html>
